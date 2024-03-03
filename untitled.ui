@@ -18,7 +18,7 @@
 color:rgb(255, 255, 255);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="delete_btn">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -35,12 +35,12 @@ border: 2px colid white</string>
      <string>видалити</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit">
+   <widget class="QTextEdit" name="text_edit">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>220</x>
       <y>60</y>
-      <width>471</width>
+      <width>501</width>
       <height>471</height>
      </rect>
     </property>
@@ -51,14 +51,14 @@ border: 2px colid white</string>
    <widget class="QLineEdit" name="title_edit">
     <property name="geometry">
      <rect>
-      <x>240</x>
+      <x>220</x>
       <y>20</y>
-      <width>471</width>
+      <width>491</width>
       <height>20</height>
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="save_btn">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -71,33 +71,7 @@ border: 2px colid white</string>
      <string>зберегти</string>
     </property>
    </widget>
-   <widget class="QListView" name="listView">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>110</y>
-      <width>171</width>
-      <height>192</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background:rgb(255, 186, 65);</string>
-    </property>
-   </widget>
-   <widget class="QListView" name="listView_2">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>330</y>
-      <width>171</width>
-      <height>111</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background:rgb(255, 186, 65);</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="del_tag_btn">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -113,11 +87,11 @@ border: 2px colid white</string>
      <string>Видалити тег</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="search_btn">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>510</y>
+      <x>130</x>
+      <y>500</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -126,7 +100,7 @@ border: 2px colid white</string>
      <string>Пошук</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="add_tag_btn">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -142,8 +116,8 @@ border: 2px colid white</string>
    <widget class="QLineEdit" name="tag_edit">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>510</y>
+      <x>10</x>
+      <y>500</y>
       <width>113</width>
       <height>20</height>
      </rect>
@@ -163,6 +137,33 @@ border: 2px colid white</string>
     </property>
     <property name="text">
      <string>Нова замітка</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="notes_list">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>161</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(255, 186, 65);</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="tag_list">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>161</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(255, 186, 65);
+</string>
     </property>
    </widget>
   </widget>
